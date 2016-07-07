@@ -75,8 +75,8 @@ Clean your Ivy repository local and cache folders. Then proceed with the build:
 ```bash
     $ mkdir -p $HOME/workspace
     $ cd $HOME/workspace
-    $ git clone https://github.com/frgomes/poc-scala-native.git
-    $ cd $HOME/workspace/poc-scala-native
+    $ git clone https://github.com/frgomes/scala-native-example
+    $ cd $HOME/workspace/scala-native-example
     $ sbt clean package
 ```
 
