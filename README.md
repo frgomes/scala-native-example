@@ -64,9 +64,10 @@ lazy val baseSettings = Seq(
 )
 ```
 
-Clean your Ivy repository and proceed with the build:
+Clean your Ivy repository local and cache folders. Then proceed with the build:
 ```bash
-    $ rm -r -f $HOME/.ivy2/local/org.scala-native
+    $ rm -r -f $HOME/.ivy2/local/org.scala-native $HOME/.ivy2/cache/org.scala-native
+
     $ sbt clean rtlib/publishLocal nscplugin/publishLocal publishLocal
 ```
 
